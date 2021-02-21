@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('images.jfif');
+    width: 100%;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: blue;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#content{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    color: white;
+    background-color:blue;
+    border-radius: 1%;
+  
+}
+
+.box{
+    width: auto;
+    height: 300px;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+    border-radius: 10px;
+    overflow-y: auto;
+    
+}
+
+
+.box div{
+    display: inline-block;
+}
+
+.book{
+    width: 20%;
+    height: 90%;
+    /* border:2px solid green; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+#book1{
+    background-image: url('hp.jpg');
+}
+#book2{
+    background-image: url('sh.jpg');
+}
+#book3{
+    background-image: url('bb.jpg');
+}
+#book4{
+    background-image: url('gb.jpg');
+}
+#book5{
+    background-image: url('3_Mistakes_of_My_Life.jpg');
+}
+
+.about-book{
+    width: 70%;
+    margin-right: 5%;
+    float: right;
+}
+
+footer{
+    width: 100vw;
+    background-color:blue;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
